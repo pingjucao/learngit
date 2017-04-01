@@ -1,0 +1,13 @@
+  1       sudo apt-get --purge remove <programname> 卸载程序
+
+purge 卸载并清除软件包的配置
+
+remove 卸载软件包
+
+ 2    sudo意思就是super-userdo，让当前用户暂时以管理员的身份root来执行这条命令
+
+su是用来改变当前用户的，suroot，就是将当前用户切换为root，用了suroot之后，下面所有的命令就可以不用打sudo了
+
+以admins用户登陆终端时，默认文件夹所在位置是/home/admins
+
+用sudo-i (或suroot)命令转换到root用户，此时终端的位置变换到了/root文件夹下，转换到普通用话的命令是:su admins
